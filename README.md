@@ -162,24 +162,4 @@
         <html><head><title>প্রিন্ট করুন</title></head><body>
         <h2>${quote}</h2>
         <p style="text-align:right; font-weight:bold;">— শাহরিয়া সবুজ শিশির</p>
-        <script>window.print();</script>
-        </body></html>
-      `);
-      printWindow.document.close();
-    }
-
-    function shareQuote() {
-      const text = document.getElementById('quoteText').textContent + "\n— শাহরিয়া সবুজ শিশির";
-      if (navigator.share) {
-        navigator.share({
-          title: 'অনুপ্রেরণার উক্তি',
-          text: text,
-          url: window.location.href
-        }).catch((error) => console.log('Sharing failed:', error));
-      } else {
-        alert("আপনার ব্রাউজারে শেয়ার অপশনটি সাপোর্ট করে না। আপনি কপি ব্যবহার করুন।");
-      }
-    }
-
-    window.onload = newQuote;
-  </script>
+        <script>window.print();</script>>
