@@ -84,7 +84,7 @@ Inspiration Quotes
       text-align: center;
       background-color: green;
       font-size: 0.9rem;
-      color: #555;
+      color: white;
     }
     @media print {
       body * {
