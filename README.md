@@ -8,7 +8,7 @@ Inspiration Quotes
   <style>
     body {
       font-family: 'SolaimanLipi', sans-serif, Arial, sans-serif;
-      background: Green (tright, #e0f2f1, #f3e5f5);
+      background: green (tright, #e0f2f1, #f3e5f5);
       margin: 0;
       padding: 0;
       min-height: 100vh;
@@ -82,7 +82,7 @@ Inspiration Quotes
       padding: 20px 10px;
       width: 100%;
       text-align: center;
-      background-color: fuchsia;
+      background-color: green;
       font-size: 0.9rem;
       color: #555;
     }
