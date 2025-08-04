@@ -19,7 +19,7 @@ Inspiration Quotes
       color: #333;
     }
     header {
-      background-color: #6a1b9a;
+      background-color: orchid;
       color: #fff;
       width: 100%;
       padding: 20px 0;
